@@ -1,13 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import SearchEngine from './SearchEngine';
+
+import './App.css';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+   <div className="App">
+      <div className="outerWrapper">
+        <SearchEngine city = "New York"/>
+      </div>
+      <footer className="text-center">
+      <a href="https://github.com/Dabi-ayu/react-app">open source code</a> <span>by Dabi</span>
+    </footer>
+    </div>
   </React.StrictMode>
 );
 
