@@ -1,0 +1,7 @@
+ span{
+    font-size: 14px;
+}
+
+span.faint{
+    opacity: 0.5;
+}

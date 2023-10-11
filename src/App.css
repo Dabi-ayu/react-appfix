@@ -43,9 +43,10 @@ ul li {
   margin-left: 2px;
 }
 
-.weatherIcon img {
+.weatherIcon canvas {
   position: relative;
-  bottom: 18px;
+  bottom: 1px;
+  margin-right: 15px;
 }
 
 .Temperature {
@@ -55,7 +56,7 @@ ul li {
 }
 
 .spaced-list {
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .spaced-list li {

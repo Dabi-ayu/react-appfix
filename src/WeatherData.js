@@ -1,7 +1,8 @@
 import React from "react";
 import FixedDate from "./FixedDate";
 import Units from "./Units";
-import WeatherForecast from "./WeatherForecast";
+import WeatherIcon from "./WeatherIcon";
+
 
 export default function WeatherData(props) {
   return (
@@ -19,7 +20,7 @@ export default function WeatherData(props) {
       <div className="row">
         <div className="col-6">
           <div className="weatherIcon">
-            <img src={props.info.icon} alt={props.info.description} />
+            <WeatherIcon code={props.info.icon} size={52} />
             <Units celcuis={props.info.temperature} />
           </div>
         </div>
@@ -30,7 +31,6 @@ export default function WeatherData(props) {
           </ul>
         </div>
       </div>
-      <WeatherForecast />
     </div>
   );
 }
