@@ -15,7 +15,7 @@ root.render(
         <SearchEngine city = "New York"/>
       </div>
       <footer className="text-center">
-      <a href="https://github.com/Dabi-ayu/react-appfix">open source code</a> <span>by Dabi</span>
+      <a href="https://github.com/Dabi-ayu/react-appfix" rel='noopener noreferrer'>open source code</a> <span>by Dabi</span>
     </footer>
     </div>
   </React.StrictMode>
